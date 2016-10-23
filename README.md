@@ -1,6 +1,9 @@
 # FileProviderDemo
-Simple showcase for Android FileProvider use
+Simple showcase for Android FileProvider use.
+
+
 As of Android 7.0 ,due to the File System permission changes
+
 > attempts to pass a file:// URI trigger a FileUriExposedException. 
 
 Quote from Changes in [nougat](https://developer.android.com/about/versions/nougat/android-7.0-changes.html)
