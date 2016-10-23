@@ -21,6 +21,7 @@ Quote from Changes in [nougat](https://developer.android.com/about/versions/noug
 - [Android doc](https://developer.android.com/training/secure-file-sharing/index.html?utm_campaign=android_series_sharingcontent_012116&utm_source=medium&utm_medium=blog)
 - [Medium](https://medium.com/google-developers/sharing-content-between-android-apps-2e6db9d1368b#.oflhz5mmx)
 - [FileProvider](https://developer.android.com/reference/android/support/v4/content/FileProvider.html)
+- [Traning](https://developer.android.com/training/secure-file-sharing/index.html)
 
 
 
