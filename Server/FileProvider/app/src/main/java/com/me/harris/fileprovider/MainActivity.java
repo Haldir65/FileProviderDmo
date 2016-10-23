@@ -114,7 +114,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 // Provide read access
             shareIntent.setData(uriToImage);
             shareIntent.addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION);
-            startActivityForResult(shareIntent, 1007);
+            if (shareIntent.resolveActivity(getPackageManager()) != null) {
+                startActivityForResult(shareIntent, 1007);
+            }
         } else {
             Toast.makeText(this, "未找到文件!", Toast.LENGTH_SHORT).show();
         }
